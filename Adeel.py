@@ -1,4 +1,4 @@
-#coding=utf
+Hi#coding=utf
 
 #YE LOL PE CHART TA 
 import uuid
@@ -1112,7 +1112,6 @@ try:
     proxy = requests.get('https://raw.githubusercontent.com/Legharibadmshhai/Bewafaa/main/Approved.txt').text.splitlines()
     v = 3.1
     update = requests.get('https://raw.githubusercontent.com/Legharibadmshhai/Bewafaa/main/Approved.txt').text
-    if str(v) in update:
 
 def rehan():
 	os.system('clear')
