@@ -110,7 +110,6 @@ def menu_apikey():
       
       print(f"\x1b[1;92m    Sorry Bro Your Key not Aproved ")
       print(f"    Send payment to Admin and get aproval"); time.sleep(2)
-      os.system(f'
       sys.exit()
   except:
     sys.exit()
