@@ -1113,13 +1113,6 @@ try:
     v = 3.1
     update = requests.get('https://raw.githubusercontent.com/Legharibadmshhai/Bewafaa/main/Approved.txt').text
     if str(v) in update:
-        
-#global functions
-def dynamic(text):
-    titik = ['.   ','..  ','... ','.... ']
-    for o in titik:
-        print('\r'+text+o),
-        sys.stdout.flush();time.sleep(1)
 
 def rehan():
 	os.system('clear')
