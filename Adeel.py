@@ -1114,8 +1114,6 @@ try:
     update = requests.get('https://raw.githubusercontent.com/Legharibadmshhai/Bewafaa/main/Approved.txt').text
     if str(v) in update:
         
-except:print('\n\033[1;31mNo internet connection ... \033[0;97m')
-
 #global functions
 def dynamic(text):
     titik = ['.   ','..  ','... ','.... ']
