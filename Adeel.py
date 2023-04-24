@@ -66,8 +66,7 @@ for x in range(10000):
 def menu_apikey():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "→".join(uuid)
-  server = requests.get(f'{'https://raw.githubusercontent.com/Legharibadmshhai/Bewafaa/main/Approved.txt').text
-  
+  update = requests.get('https://raw.githubusercontent.com/Legharibadmshhai/Bewafaa/main/Approved.txt'). textbook
  
 
   os.system(f" clear")                          
